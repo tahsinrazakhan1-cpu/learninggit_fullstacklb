@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Beautiful Web Page</title>
+
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Page */
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+
+            font-family: Arial, sans-serif;
+            background: linear-gradient(
+                135deg,
+                #667eea,
+                #764ba2
+            );
+
+            color: white;
+            padding: 30px;
+        }
+
+        /* Headings */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            text-align: center;
+            margin-bottom: 5px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+            transition: transform 0.3s ease,
+                        color 0.3s ease;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: #fff;
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+
+        h3 {
+            font-size: 32px;
+        }
+
+        h4 {
+            font-size: 26px;
+        }
+
+        h5 {
+            font-size: 22px;
+        }
+
+        h6 {
+            font-size: 18px;
+        }
+
+        /* Heading hover */
+        h1:hover,
+        h2:hover,
+        h3:hover,
+        h4:hover,
+        h5:hover,
+        h6:hover {
+            color: #ffd369;
+            transform: translateY(-5px);
+        }
+
+        /* Box */
+        .box {
+            width: min(600px, 90vw);
+            min-height: 300px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            padding: 40px;
+
+            color: #fff;
+            background: linear-gradient(
+                135deg,
+                #8e2de2,
+                #4a00e0
+            );
+
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 25px;
+
+            font-size: 18px;
+            line-height: 1.8;
+            text-align: center;
+
+            box-shadow:
+                0 20px 40px rgba(0, 0, 0, 0.3),
+                inset 0 0 20px rgba(255, 255, 255, 0.1);
+
+            transition: transform 0.4s ease,
+                        box-shadow 0.4s ease;
+        }
+
+        /* Box hover */
+        .box:hover {
+            transform: translateY(-10px) scale(1.02);
+
+            box-shadow:
+                0 30px 60px rgba(0, 0, 0, 0.4),
+                0 0 30px rgba(255, 255, 255, 0.2);
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 38px;
+            }
+
+            h2 {
+                font-size: 32px;
+            }
+
+            h3 {
+                font-size: 27px;
+            }
+
+            .box {
+                padding: 25px;
+                font-size: 16px;
+                min-height: 250px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>dsfdw</h1>
+    <h2>dsfde</h2>
+    <h3>dsfdt</h3>
+    <h4>dsfd</h4>
+    <h5>dsfdy</h5>
+    <h6>dsfd</h6>
+
+    <p class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Reprehenderit nihil rerum, doloremque, sit vel cumque quis,
+        expedita iste velit odio natus! Harum, numquam cumque pariatur
+        culpa ad commodi inventore quo dolorum. Voluptates beatae officia,
+        illum deserunt fugiat perspiciatis necessitatibus
