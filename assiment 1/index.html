@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bash Commands I Have Learned</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+        <header class="hero">
+            <p class="eyebrow">Terminal notes · 01</p>
+            <h1>Bash commands I have learned</h1>
+            <p class="intro">A quick reference for the commands I have explored while learning the terminal.</p>
+        </header>
+
+        <section class="command-grid" aria-label="Bash commands">
+            <article class="command-card">
+                <div class="command-heading"><span class="number">01</span><h2>touch</h2></div>
+                <h3>File creation</h3>
+                <p>The <code>touch</code> command creates a new, empty file. If the file already exists, it updates the file's last-modified timestamp without changing its content.</p>
+                <div class="terminal"><span>$</span> touch notes.txt</div>
+                <p class="output"><strong>Output:</strong> No output. The file is created silently in the current folder.</p>
+            </article>
+
+            <article class="command-card">
+                <div class="command-heading"><span class="number">02</span><h2>mkdir</h2></div>
+                <h3>Folder creation</h3>
+                <p>The <code>mkdir</code> command creates a new, empty folder (directory) at the location you specify.</p>
+                <div class="terminal"><span>$</span> mkdir project</div>
+                <p class="output"><strong>Output:</strong> No output. The folder is created in the current directory.</p>
+            </article>
+
+            <article class="command-card">
+                <div class="command-heading"><span class="number">03</span><h2>cd</h2></div>
+                <h3>Changing directory</h3>
+                <p>The <code>cd</code> command changes the current working directory, moving you into a different folder in the terminal.</p>
+                <div class="terminal"><span>$</span> cd project</div>
+                <p class="output"><strong>Output:</strong> The prompt changes to show that you are inside <code>~/project</code>.</p>
+            </article>
+
+            <article class="command-card featured">
+                <div class="command-heading"><span class="number">04</span><h2>grep</h2></div>
+                <h3>Text exploration</h3>
+                <p>I tried <code>grep "Syntax" index.html</code> to search this page for every line containing the word “Syntax”.</p>
+                <div class="terminal output-lines"><span>$</span> grep "Syntax" index.html<br><em>Syntax: touch filename</em><br><em>Syntax: mkdir foldername</em><br><em>Syntax: cd foldername</em></div>
+                <p class="output"><strong>My understanding:</strong> <code>grep</code> searches file contents for a word or pattern and prints only the matching lines.</p>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
