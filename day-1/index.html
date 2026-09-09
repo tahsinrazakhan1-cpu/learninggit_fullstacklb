@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Practice Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            padding: 30px;
+            color: #ffffff;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            font-family: Arial, sans-serif;
+        }
+
+        main {
+            width: min(600px, 90vw);
+            text-align: center;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0 0 8px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .box {
+            margin: 24px 0 0;
+            padding: 40px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 16px;
+            background: rgba(74, 0, 224, 0.55);
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+
+            .box {
+                padding: 25px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>HTML Practice Page</h1>
+        <h2>Headings</h2>
+        <h3>Text</h3>
+        <h4>Formatting</h4>
+        <h5>Practice</h5>
+        <h6>Day 1</h6>
+
+        <p class="box">
+            Lorem <b>ipsum dolor sit amet</b> consectetur adipisicing elit.
+            Reprehenderit nihil rerum, doloremque, sit vel cumque quis,
+            expedita iste velit odio natus! Harum, <strong>numquam</strong>
+            cumque pariatur culpa ad commodi inventore <em>quo dolorum.</em>
+        </p>
+    </main>
+</body>
+
+</html>
