@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full Stack Development Portfolio</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #111827;
+      --panel-2: #1f2937;
+      --accent: #38bdf8;
+      --accent-2: #a78bfa;
+      --text: #e5e7eb;
+      --muted: #cbd5e1;
+      --border: rgba(255,255,255,0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #020817, #111827 40%, #1e293b);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 30px 20px 10px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin: 0 0 12px;
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid var(--border);
+      color: var(--accent);
+      border-radius: 999px;
+      padding: 8px 16px;
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 4vw, 4rem);
+    }
+
+    .subtitle {
+      color: var(--muted);
+      max-width: 700px;
+      margin: 16px auto 0;
+      line-height: 1.7;
+      font-size: 1.08rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 35px;
+    }
+
+    .card {
+      background: rgba(17, 24, 39, 0.9);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px 18px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(56, 189, 248, 0.7);
+    }
+
+    .tag {
+      display: inline-block;
+      color: var(--accent-2);
+      background: rgba(167, 139, 250, 0.12);
+      border-radius: 999px;
+      font-size: 11px;
+      padding: 6px 10px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 18px;
+      color: var(--text);
+      text-decoration: none;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      padding: 10px 16px;
+      border-radius: 10px;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="eyebrow">Learning Archive</div>
+      <h1>Full Stack Development</h1>
+      <p class="subtitle">
+        A clean, easy-to-read collection of exercises and practice pages from the course, grouped by lesson and topic for faster navigation.
+      </p>
+    </header>
+
+    <main class="grid">
+      <section class="card">
+        <div class="tag">Day 1</div>
+        <h2>HTML Practice</h2>
+        <p>Basic tags, structure, text formatting, and fast page layout exercises.</p>
+        <a href="day-1/index.html">Open</a>
+      </section>
+
+      <section class="card">
+        <div class="tag">Day 3</div>
+        <h2>Image Lab</h2>
+        <p>Local image embedding and simple page composition tasks.</p>
+        <a href="day-3-lab/index3.html">Open</a>
+      </section>
+
+      <section class="card">
+        <div class="tag">Day 4</div>
+        <h2>Practice Files</h2>
+        <p>Day 4 exercises covering web page creation and styling techniques.</p>
+        <a href="day4/day4.html">Open</a>
+      </section>
+
+      <section class="card">
+        <div class="tag">Day 5</div>
+        <h2>Multi-page work</h2>
+        <p>Navigation bars, about sections, services, and multi-page mini-sites.</p>
+        <a href="day5/day5.html">Open</a>
+      </section>
+
+      <section class="card">
+        <div class="tag">Lab 3</div>
+        <h2>Fast Lab</h2>
+        <p>Lab 3 fast pages, nested folders, and service-based layouts.</p>
+        <a href="lab%203%20fast/index.html">Open</a>
+      </section>
+
+      <section class="card">
+        <div class="tag">Lab 4</div>
+        <h2>Lab Practice</h2>
+        <p>Container-based exercises and additional HTML/CSS practice work.</p>
+        <a href="lab4/index.html">Open</a>
+      </section>
+
+      <section class="card">
+        <div class="tag">Worksheet</div>
+        <h2>Worksheet 7</h2>
+        <p>Worksheet files and assignment-style practice pages.</p>
+        <a href="WORKSHEET7/INDEX.html">Open</a>
+      </section>
+
+      <section class="card">
+        <div class="tag">Assignment</div>
+        <h2>Assignment 1</h2>
+        <p>Bash command notes and project documentation work.</p>
+        <a href="assignment-1/index.html">Open</a>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
