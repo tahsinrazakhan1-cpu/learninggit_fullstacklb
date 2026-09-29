@@ -1,4 +1,4 @@
-.CARD {
+/* .CARD {
     padding: 20px;
     background-color: orange;
 }
@@ -8,4 +8,8 @@
 }
 .BIG {
     padding: 40px;
+} */
+
+.text-underline {
+    text-decoration: underline;
 }
