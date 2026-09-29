@@ -1,0 +1,14 @@
+body  {
+background-color: red;
+}
+h1 {
+    color: brown;
+    background-color: peru;
+    font-size: 70px;
+    
+}
+p{
+    color: violet;
+    background-color: goldenrod;
+    width: 50%;
+}

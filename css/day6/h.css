@@ -1,0 +1,20 @@
+#item-1 {
+    background-color: red;
+    width: 600px;
+    height: 600px;
+    padding: 23;
+    border-width: 10px;
+    border-color: brown;
+    border-style: solid ;
+    margin: 50px;
+}
+#item-2 {
+ background-color: yellow;
+    width: 100px;
+    height: 100px;
+    padding: 23;
+    border-width: 10px;
+    border-color: peru;
+    border-style: solid ;
+    margin: 50px;
+}   
