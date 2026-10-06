@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Item-1{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: orange;
+}
+.Item-2{
+        height: 500px;
+    width: 100px;
+    margin: 20px;
+    background-color: peru;
+}
+.Item-3{   
+     height: 100px;
+    width: 300px;
+    margin: 20px;
+    background-color: purple;}
